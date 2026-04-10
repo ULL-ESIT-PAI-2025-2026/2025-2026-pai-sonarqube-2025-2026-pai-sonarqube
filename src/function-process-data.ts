@@ -4,7 +4,9 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * @author Andrés Riera
+ * @author Andrés David Riera Rivera
+ * @author Lucas de Vera Gil
+ * @author Cristhian Cruz Delgado
  * @since April 10 2026
  * @desc Process function data
  *
@@ -16,6 +18,7 @@ export function processUserStatus(status: string, age: number, role: string) {
       if (role === "admin") {
         console.log("Full access granted");
       } else {
+        // SonnarQube issue: 'If' statement should not be the only statement in 'else' block
         if (role === "editor") {
           console.log("Partial access granted");
         } else {
@@ -36,6 +39,7 @@ export function processGuestStatus(status: string, age: number, role: string) {
       if (role === "admin") {
         console.log("Full access granted");
       } else {
+        // SonnarQube issue: 'If' statement should not be the only statement in 'else' block
         if (role === "editor") {
           console.log("Partial access granted");
         } else {
