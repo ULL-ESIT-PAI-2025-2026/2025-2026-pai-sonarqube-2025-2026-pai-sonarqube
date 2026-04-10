@@ -4,12 +4,11 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * @author Andrés Riera
- * @since Mar 01 2026
+ * @author Andrés David Riera Rivera
+ * @author Lucas de Vera Gil
+ * @author Cristhian Cruz Delgado
+ * @since April 10 2026
  * @desc My set class
- *       This file defines a MySet class that represents a set of numbers
- *       and implements methods to perform operations on sets.
- *
  */
 
 'use strict';

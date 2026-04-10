@@ -4,7 +4,9 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * @author Andrés Riera
+ * @author Andrés David Riera Rivera
+ * @author Lucas de Vera Gil
+ * @author Cristhian Cruz Delgado
  * @since April 10 2026
  * @desc Function client
  *
@@ -22,6 +24,7 @@ export function getClientData(userId: string) {
   console.log("This will never be executed"); 
 }
 
+// SonarQube issue: Unexpected empty function 'logConnection'.
 export function logConnection() {
-
+  
 }

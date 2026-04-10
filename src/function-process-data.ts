@@ -4,7 +4,9 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * @author Andrés Riera
+ * @author Andrés David Riera Rivera
+ * @author Lucas de Vera Gil
+ * @author Cristhian Cruz Delgado
  * @since April 10 2026
  * @desc Process function data
  *
