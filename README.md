@@ -11,7 +11,7 @@ This directory is organised as follows:
       ├── src          # Source code 
       
 
-# SonarQube: The Gold Standard for Continuous Inspection 🚀
+# SonarQube: The Gold Standard for Continuous Inspection 
 
 ![SonarQube Logo](https://raw.githubusercontent.com/SonarSource/sonarqube/master/docs/logo.png)
 
