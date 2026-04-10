@@ -18,6 +18,7 @@ export function getClientData(userId: string) {
     console.log("No ID provided");
   }
   return data;
+  // SonnarQube issue: Unreachable code
   console.log("This will never be executed"); 
 }
 
