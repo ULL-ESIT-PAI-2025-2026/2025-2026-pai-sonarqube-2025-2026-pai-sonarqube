@@ -5,14 +5,17 @@ on:
       - master
   pull_request:
     types: [opened, synchronize, reopened]
+
 jobs:
   sonarqube:
     name: SonarQube
     runs-on: ubuntu-latest
     steps:
-      - uses: docs/example-action@b16d2601a6b948e2fb26f3772276581f31daa7cd
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+          fetch-depth: 0  # full history for better SonarQube analysis
+
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
         env:
