@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: docs/example-action@b16d2601a6b948e2fb26f3772276581f31daa7cd
         with:
           fetch-depth: 0  # full history for better SonarQube analysis
 
