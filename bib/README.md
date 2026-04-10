@@ -1,15 +1,17 @@
 # Bibliography
 
-Sonar web: https://www.sonarsource.com/
+References and additional material used in our project:
 
-Sonar docs: https://docs.sonarsource.com/sonarqube-server/10.4
+[Sonar web](https://www.sonarsource.com/) 
 
-Clean code book: https://amzn.eu/d/03Kxxtix
+[Sonar docs](https://docs.sonarsource.com/sonarqube-server/10.4)
 
-Wikipedia(SonarQube): https://en.wikipedia.org/wiki/SonarQube
+[Clean Code book](https://amzn.eu/d/03Kxxtix)
 
-Wallarm: https://www.wallarm.com/what/what-is-sast
+[Wikipedia](https://en.wikipedia.org/wiki/SonarQube)
 
-CleveritGroup: https://www.cleveritgroup.com/es/blog/sonarqube-2
+[https://www.wallarm.com/what/what-is-sast](https://www.wallarm.com/what/what-is-sast)
 
-Github(SonarQube): https://github.com/SonarSource/sonarqube
+[https://www.cleveritgroup.com/es/blog/sonarqube-2](https://www.cleveritgroup.com/es/blog/sonarqube-2)
+
+[https://github.com/SonarSource/sonarqube](https://github.com/SonarSource/sonarqube)
