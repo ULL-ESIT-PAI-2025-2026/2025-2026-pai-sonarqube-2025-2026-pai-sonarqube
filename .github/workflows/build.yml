@@ -17,11 +17,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install  # Usa 'yarn install' si prefieres yarn
-
+      - name: Run tests
+        run: npm test  # Usa 'yarn test' si prefieres yarn
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v4
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           args: >
             -Dsonar.projectKey=ULL-ESIT-PAI-2025-2026_2025-2026-pai-sonarqube-2025-2026-pai-sonarqube
