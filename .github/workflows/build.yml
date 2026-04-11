@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
 
       - name: Install dependencies
         run: npm install
 
       - name: Run tests
-        run: npm test || true  # El '|| true' evita que el pipeline se pare si un test falla
+        run: npm test || true # El '|| true' evita que el pipeline se pare si un test falla
 
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
@@ -29,5 +29,6 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=ULL-ESIT-PAI-2025-2026_2025-2026-pai-sonarqube-2025-2026-pai-sonarqube
+            -Dsonar.organization=ULL-ESIT-PAI-2025-2026
             -Dsonar.sources=src
             -Dsonar.host.url=https://sonarcloud.io
