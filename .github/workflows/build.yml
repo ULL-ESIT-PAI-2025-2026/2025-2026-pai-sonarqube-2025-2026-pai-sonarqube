@@ -25,6 +25,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: https://sonarcloud.io
         with:
           args: >
             -Dsonar.projectKey=ULL-ESIT-PAI-2025-2026_2025-2026-pai-sonarqube-2025-2026-pai-sonarqube
