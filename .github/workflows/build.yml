@@ -29,3 +29,4 @@ jobs:
           args: >
             -Dsonar.projectKey=ULL-ESIT-PAI-2025-2026_2025-2026-pai-sonarqube-2025-2026-pai-sonarqube
             -Dsonar.sources=src
+            -Dsonar.host.url=https://sonarcloud.io
