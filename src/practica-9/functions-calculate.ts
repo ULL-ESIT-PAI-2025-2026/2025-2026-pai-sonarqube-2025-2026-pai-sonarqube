@@ -48,7 +48,7 @@ export class MathEvaluator {
    * @return {number} El resultado de la evaluación o NaN si hay un error.
    */
   public evaluate(xValue: number): number {
-    if (!this.compiledExpression) return NaN;
+    if (!this.compiledExpression) return Number.NaN;
     try {
       return (this.compiledExpression as any).evaluate({ x: xValue });
     } catch {

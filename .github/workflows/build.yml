@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test || true # El '|| true' evita que el pipeline se pare si un test falla
+        run: npm test || true
 
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
