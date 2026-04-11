@@ -17,7 +17,8 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
       - name: Install dependencies
         run: yarn install
-      - name: Test and coverage
-        run: yarn test --coverage
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
