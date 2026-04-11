@@ -1,4 +1,4 @@
-const { Rational } = require('./rational_class');
+const { Rational } = require('../src/rational_class');
 
 describe('Rational class tests', () => {
   test('should create a rational number with the given numerator and determinant', () => {
