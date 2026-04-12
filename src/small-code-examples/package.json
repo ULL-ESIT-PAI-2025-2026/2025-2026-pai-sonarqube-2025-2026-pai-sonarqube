@@ -1,0 +1,14 @@
+{
+   "devDependencies": {
+      "@sonar/scan": "^4.3.5",
+      "eslint": "^8.57.1",
+      "eslint-config-standard-with-typescript": "^34.0.0",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-n": "^15.6.1",
+      "eslint-plugin-promise": "^6.1.1",
+      "typescript": "^6.0.2"
+   },
+   "dependencies": {
+      "sonarqube-scanner": "^4.3.5"
+   }
+}
